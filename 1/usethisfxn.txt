@@ -1,0 +1,4 @@
+int yywrap() {
+    // Always return 1 to indicate there are no more input files to process
+    return 1;
+}
